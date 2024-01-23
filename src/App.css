@@ -1,0 +1,73 @@
+body {
+    background-color: aliceblue;
+}
+
+.app-container {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .tabs {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .tab {
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+  }
+  
+  .tab.active {
+    background-color: #e0e0e0;
+  }
+  
+  .content {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  
+  li.completed {
+    text-decoration: none;
+    opacity: 0.5;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+ .custom-input {
+    width: 75%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  
+  button {
+    padding: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+  .addTask{
+    width: 50%;
+    margin-left: 145px;
+  }
+  
